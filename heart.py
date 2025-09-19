@@ -13,7 +13,7 @@ def yt(t):
 
 # Ayarlar
 t = turtle.Turtle()
-t.speed(1400)  # Maksimum hız
+t.speed('fastest')  # Maksimum hız
 turtle.colormode(255)
 screen = turtle.Screen()
 screen.bgcolor(0, 0, 0)  # Arka plan siyah
